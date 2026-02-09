@@ -1,0 +1,942 @@
+{\rtf1\ansi\ansicpg932\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!doctype html>\
+<html lang="ja">\
+<head>\
+  <meta charset="utf-8" />\
+  <meta name="viewport" content="width=device-width, initial-scale=1" />\
+  <title>2026 New Year Lottery\uc0\u65372 ReMiliss</title>\
+  <meta name="description" content="2026\uc0\u24180 \u21021 \u22238 \u12398 \u29305 \u21029 \u12461 \u12515 \u12531 \u12506 \u12540 \u12531 \u12290 1\u20154 1\u22238 \u38480 \u23450 \u12398 \u12503 \u12524 \u12511 \u12450 \u12512 \u25277 \u36984 \u12290 " />\
+\
+  <style>\
+    :root\{\
+      --bg:#0b0f14;\
+      --panel:#111824;\
+      --panel2:#0e141f;\
+      --text:#e9eef6;\
+      --muted:#a8b3c2;\
+      --line:rgba(255,255,255,.10);\
+      --gold:#d7b46a;\
+      --gold2:#f0d28a;\
+      --shadow: 0 20px 60px rgba(0,0,0,.45);\
+      --radius:18px;\
+      --radius2:26px;\
+      --max:1080px;\
+    \}\
+\
+    *\{ box-sizing:border-box; \}\
+    html,body\{ height:100%; \}\
+    body\{\
+      margin:0;\
+      color:var(--text);\
+      background:\
+        radial-gradient(1200px 600px at 20% 10%, rgba(215,180,106,.18), transparent 55%),\
+        radial-gradient(900px 520px at 90% 20%, rgba(240,210,138,.12), transparent 60%),\
+        radial-gradient(900px 520px at 40% 95%, rgba(120,160,255,.10), transparent 60%),\
+        linear-gradient(180deg, #070a0f 0%, var(--bg) 100%);\
+      font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;\
+      letter-spacing:.02em;\
+    \}\
+\
+    a\{ color:inherit; text-decoration:none; \}\
+    .wrap\{ width:min(var(--max), calc(100% - 40px)); margin:0 auto; \}\
+\
+    /* top bar */\
+    .topbar\{\
+      position:sticky; top:0; z-index:10;\
+      backdrop-filter: blur(12px);\
+      background: linear-gradient(180deg, rgba(11,15,20,.92), rgba(11,15,20,.55));\
+      border-bottom: 1px solid var(--line);\
+    \}\
+    .topbar .inner\{\
+      display:flex; align-items:center; justify-content:space-between;\
+      padding:14px 0;\
+    \}\
+    .brand\{\
+      display:flex; gap:12px; align-items:center;\
+    \}\
+    .mark\{\
+      width:34px; height:34px; border-radius:999px;\
+      background:\
+        radial-gradient(circle at 30% 30%, rgba(240,210,138,.9), rgba(215,180,106,.35) 45%, rgba(215,180,106,.12) 70%, transparent 72%),\
+        linear-gradient(135deg, rgba(215,180,106,.65), rgba(240,210,138,.18));\
+      box-shadow: 0 10px 30px rgba(215,180,106,.15);\
+      border: 1px solid rgba(215,180,106,.35);\
+    \}\
+    .brand .name\{\
+      font-weight:700;\
+      letter-spacing:.08em;\
+    \}\
+    .brand .sub\{\
+      display:block;\
+      font-size:12px;\
+      color:var(--muted);\
+      letter-spacing:.12em;\
+      margin-top:2px;\
+    \}\
+    .pill\{\
+      display:inline-flex; align-items:center; gap:8px;\
+      padding:8px 12px;\
+      border-radius:999px;\
+      border: 1px solid rgba(215,180,106,.35);\
+      background: rgba(17,24,36,.55);\
+      color: var(--gold2);\
+      font-size:12px;\
+    \}\
+    .dot\{\
+      width:6px; height:6px; border-radius:999px;\
+      background: var(--gold2);\
+      box-shadow: 0 0 18px rgba(240,210,138,.65);\
+    \}\
+\
+    /* hero */\
+    header.hero\{ padding:54px 0 26px; \}\
+    .heroCard\{\
+      border-radius: var(--radius2);\
+      background: linear-gradient(180deg, rgba(17,24,36,.82), rgba(14,20,31,.72));\
+      border: 1px solid rgba(255,255,255,.08);\
+      box-shadow: var(--shadow);\
+      overflow:hidden;\
+      position:relative;\
+    \}\
+    .heroCard::before\{\
+      content:"";\
+      position:absolute; inset:-2px;\
+      background:\
+        radial-gradient(800px 320px at 30% 0%, rgba(240,210,138,.22), transparent 60%),\
+        radial-gradient(600px 260px at 80% 15%, rgba(215,180,106,.18), transparent 55%);\
+      pointer-events:none;\
+    \}\
+    .heroInner\{\
+      position:relative;\
+      padding:34px 28px 28px;\
+      display:grid;\
+      grid-template-columns: 1.25fr .75fr;\
+      gap:22px;\
+      align-items:stretch;\
+    \}\
+    @media (max-width:860px)\{ .heroInner\{ grid-template-columns:1fr; \} \}\
+\
+    .kicker\{\
+      display:inline-flex; align-items:center; gap:10px;\
+      color: var(--gold2);\
+      font-size:12px;\
+      letter-spacing:.18em;\
+      text-transform:uppercase;\
+      margin-bottom:12px;\
+    \}\
+    .kicker span\{\
+      height:1px; width:44px;\
+      background: linear-gradient(90deg, rgba(215,180,106,.0), rgba(240,210,138,.75));\
+    \}\
+    h1\{\
+      margin:0 0 10px;\
+      font-family: ui-serif, "Times New Roman", "Noto Serif JP", serif;\
+      font-weight:700;\
+      letter-spacing:.08em;\
+      line-height:1.2;\
+      font-size: clamp(26px, 3.2vw, 40px);\
+    \}\
+    .lead\{\
+      margin:0;\
+      color: rgba(233,238,246,.86);\
+      line-height:1.8;\
+      font-size:14px;\
+      max-width: 62ch;\
+    \}\
+    .metaRow\{\
+      display:flex; flex-wrap:wrap;\
+      gap:10px;\
+      margin-top:18px;\
+    \}\
+    .chip\{\
+      border:1px solid rgba(255,255,255,.10);\
+      background: rgba(11,15,20,.35);\
+      padding:9px 12px;\
+      border-radius:999px;\
+      font-size:12px;\
+      color: var(--muted);\
+    \}\
+    .chip b\{ color: var(--text); font-weight:700; \}\
+\
+    .ctaBox\{\
+      position:relative;\
+      border-radius: var(--radius);\
+      border:1px solid rgba(215,180,106,.30);\
+      background: linear-gradient(180deg, rgba(215,180,106,.12), rgba(11,15,20,.35));\
+      padding:18px;\
+      overflow:hidden;\
+    \}\
+    .ctaBox::after\{\
+      content:"";\
+      position:absolute; inset:0;\
+      background: radial-gradient(340px 180px at 30% 20%, rgba(240,210,138,.26), transparent 60%);\
+      pointer-events:none;\
+    \}\
+    .ctaBox h2\{\
+      margin:0 0 8px;\
+      font-size:14px;\
+      letter-spacing:.14em;\
+      color: var(--gold2);\
+      position:relative;\
+    \}\
+    .ctaBox p\{\
+      margin:0 0 12px;\
+      font-size:12px;\
+      line-height:1.7;\
+      color: rgba(233,238,246,.78);\
+      position:relative;\
+    \}\
+    .ctaActions\{\
+      display:flex; gap:10px; flex-wrap:wrap;\
+      position:relative;\
+    \}\
+    .btn\{\
+      cursor:pointer;\
+      border-radius:12px;\
+      padding:11px 14px;\
+      border:1px solid rgba(255,255,255,.12);\
+      background: rgba(17,24,36,.55);\
+      color: var(--text);\
+      font-weight:700;\
+      letter-spacing:.06em;\
+      font-size:13px;\
+      transition: transform .15s ease, border-color .15s ease, background .15s ease, opacity .15s ease;\
+    \}\
+    .btn:hover\{ transform: translateY(-1px); border-color: rgba(240,210,138,.35); \}\
+    .btn:disabled\{ opacity:.55; cursor:not-allowed; transform:none; \}\
+    .btnPrimary\{\
+      border-color: rgba(240,210,138,.55);\
+      background: linear-gradient(180deg, rgba(240,210,138,.22), rgba(215,180,106,.10));\
+      color: var(--text);\
+    \}\
+    .btnGhost\{ background: transparent; \}\
+\
+    /* sections */\
+    section\{ padding: 18px 0 26px; \}\
+    .grid2\{\
+      display:grid;\
+      grid-template-columns: 1fr 1fr;\
+      gap:16px;\
+    \}\
+    @media (max-width:860px)\{ .grid2\{ grid-template-columns:1fr; \} \}\
+\
+    .card\{\
+      background: linear-gradient(180deg, rgba(17,24,36,.72), rgba(14,20,31,.62));\
+      border:1px solid rgba(255,255,255,.08);\
+      border-radius: var(--radius);\
+      padding:18px;\
+      box-shadow: 0 14px 46px rgba(0,0,0,.32);\
+    \}\
+    .card h3\{\
+      margin:0 0 10px;\
+      font-size:14px;\
+      letter-spacing:.14em;\
+      color: var(--gold2);\
+    \}\
+    .card p, .card li\{\
+      color: rgba(233,238,246,.84);\
+      font-size:13px;\
+      line-height:1.85;\
+    \}\
+    .muted\{ color: var(--muted); \}\
+\
+    /* prize table */\
+    .prizeWrap\{\
+      border-radius: var(--radius2);\
+      overflow:hidden;\
+      border:1px solid rgba(255,255,255,.08);\
+      background: linear-gradient(180deg, rgba(17,24,36,.78), rgba(14,20,31,.62));\
+      box-shadow: var(--shadow);\
+    \}\
+    .prizeHead\{\
+      padding:18px 18px 16px;\
+      border-bottom:1px solid rgba(255,255,255,.08);\
+      display:flex; align-items:flex-end; justify-content:space-between;\
+      gap:10px; flex-wrap:wrap;\
+    \}\
+    .prizeHead h2\{\
+      margin:0;\
+      font-family: ui-serif, "Times New Roman", "Noto Serif JP", serif;\
+      letter-spacing:.10em;\
+      font-size:18px;\
+    \}\
+    .prizeHead .note\{\
+      font-size:12px;\
+      color: var(--muted);\
+    \}\
+\
+    .prizeGrid\{\
+      display:grid;\
+      grid-template-columns: repeat(3, 1fr);\
+      gap:1px;\
+      background: rgba(255,255,255,.06);\
+    \}\
+    @media (max-width:980px)\{ .prizeGrid\{ grid-template-columns: repeat(2, 1fr); \} \}\
+    @media (max-width:640px)\{ .prizeGrid\{ grid-template-columns: 1fr; \} \}\
+\
+    .prize\{\
+      background: rgba(11,15,20,.38);\
+      padding:16px 16px 14px;\
+      position:relative;\
+      min-height: 132px;\
+    \}\
+    .prize::before\{\
+      content:"";\
+      position:absolute; inset:0;\
+      background: radial-gradient(340px 180px at 20% 0%, rgba(240,210,138,.10), transparent 60%);\
+      pointer-events:none;\
+      opacity:.85;\
+    \}\
+    .prizeTop\{\
+      display:flex; align-items:center; justify-content:space-between;\
+      gap:10px;\
+      position:relative;\
+    \}\
+    .rank\{\
+      display:inline-flex; align-items:center; gap:10px;\
+      font-weight:800;\
+      letter-spacing:.16em;\
+      font-size:13px;\
+    \}\
+    .rankBadge\{\
+      width:30px; height:30px;\
+      display:grid; place-items:center;\
+      border-radius:10px;\
+      border:1px solid rgba(215,180,106,.40);\
+      background: linear-gradient(180deg, rgba(240,210,138,.16), rgba(215,180,106,.08));\
+      color: var(--gold2);\
+      box-shadow: 0 10px 26px rgba(215,180,106,.12);\
+      font-family: ui-serif, "Times New Roman", serif;\
+      letter-spacing:.08em;\
+    \}\
+    .qty\{\
+      font-size:12px;\
+      color: var(--muted);\
+      border:1px solid rgba(255,255,255,.10);\
+      padding:7px 10px;\
+      border-radius:999px;\
+      background: rgba(17,24,36,.35);\
+      position:relative;\
+      white-space:nowrap;\
+    \}\
+    .prizeBody\{\
+      margin-top:10px;\
+      position:relative;\
+    \}\
+    .prizeTitle\{\
+      margin:0 0 6px;\
+      font-weight:800;\
+      letter-spacing:.06em;\
+      font-size:14px;\
+    \}\
+    .prizeDesc\{\
+      margin:0;\
+      color: rgba(233,238,246,.78);\
+      font-size:12px;\
+      line-height:1.8;\
+    \}\
+\
+    /* ===== PRIZE \uc0\u24375 \u35519 \u65288 SS/S\u65289  ===== */\
+    .prize--top\{\
+      border: 1px solid rgba(240,210,138,.38);\
+      background: linear-gradient(180deg, rgba(240,210,138,.10), rgba(11,15,20,.42));\
+      min-height: 156px;\
+    \}\
+    .prize--top::before\{\
+      opacity: 1;\
+      background: radial-gradient(380px 200px at 25% 0%, rgba(240,210,138,.22), transparent 62%);\
+    \}\
+    .prize--top .prizeTitle\{ font-size: 15px; letter-spacing:.08em; \}\
+    .prize--top .rank\{ font-size: 14px; \}\
+    .rankBadge--top\{\
+      width: 36px; height: 36px; border-radius: 12px;\
+      border-color: rgba(240,210,138,.55);\
+      box-shadow: 0 14px 34px rgba(240,210,138,.16);\
+    \}\
+\
+    /* ===== I\uc0\u36062  \u25511 \u12360 \u12417  ===== */\
+    .prize--subtle\{\
+      opacity: .88;\
+      background: rgba(11,15,20,.28);\
+    \}\
+    .rankBadge--subtle\{\
+      border-color: rgba(255,255,255,.14);\
+      color: rgba(233,238,246,.85);\
+      background: rgba(17,24,36,.35);\
+      box-shadow: none;\
+    \}\
+\
+    /* entry form */\
+    .form\{\
+      display:grid;\
+      gap:12px;\
+      margin-top:10px;\
+    \}\
+    label\{\
+      display:grid;\
+      gap:6px;\
+      font-size:12px;\
+      color: var(--muted);\
+      letter-spacing:.08em;\
+    \}\
+    input, textarea\{\
+      width:100%;\
+      padding:12px 12px;\
+      border-radius:12px;\
+      border:1px solid rgba(255,255,255,.10);\
+      background: rgba(11,15,20,.45);\
+      color: var(--text);\
+      outline:none;\
+      font-size:14px;\
+      transition: border-color .15s ease, box-shadow .15s ease;\
+    \}\
+    input:focus, textarea:focus\{\
+      border-color: rgba(240,210,138,.45);\
+      box-shadow: 0 0 0 4px rgba(240,210,138,.10);\
+    \}\
+    textarea\{ min-height: 92px; resize: vertical; \}\
+\
+    .fine\{\
+      font-size:11px;\
+      color: rgba(168,179,194,.90);\
+      line-height:1.7;\
+    \}\
+    .divider\{\
+      height:1px;\
+      background: rgba(255,255,255,.08);\
+      margin: 12px 0;\
+    \}\
+\
+    footer\{\
+      padding: 28px 0 44px;\
+      color: rgba(168,179,194,.88);\
+      font-size:12px;\
+      line-height:1.8;\
+    \}\
+    .footRow\{\
+      display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; align-items:center;\
+      border-top:1px solid rgba(255,255,255,.08);\
+      padding-top:16px;\
+    \}\
+\
+    /* ===== SS/S \uc0\u24403 \u36984 \u28436 \u20986 \u12514 \u12540 \u12480 \u12523  ===== */\
+    .winModal\{\
+      position: fixed; inset: 0;\
+      display: none;\
+      place-items: center;\
+      background: rgba(0,0,0,.68);\
+      z-index: 9999;\
+      backdrop-filter: blur(10px);\
+    \}\
+    .winModal.is-open\{ display: grid; \}\
+\
+    .winCard\{\
+      width: min(560px, calc(100% - 28px));\
+      border-radius: 22px;\
+      border: 1px solid rgba(240,210,138,.45);\
+      background: linear-gradient(180deg, rgba(17,24,36,.92), rgba(11,15,20,.82));\
+      box-shadow: 0 24px 90px rgba(0,0,0,.55);\
+      overflow: hidden;\
+      position: relative;\
+    \}\
+    .winCard::before\{\
+      content:"";\
+      position:absolute; inset:-2px;\
+      background:\
+        radial-gradient(520px 260px at 30% 10%, rgba(240,210,138,.30), transparent 60%),\
+        radial-gradient(420px 220px at 80% 20%, rgba(215,180,106,.22), transparent 62%);\
+      pointer-events:none;\
+    \}\
+    .winInner\{\
+      position: relative;\
+      padding: 22px 22px 18px;\
+      text-align: center;\
+    \}\
+    .winKicker\{\
+      display:inline-flex; align-items:center; gap:10px;\
+      color: var(--gold2);\
+      letter-spacing: .18em;\
+      font-size: 12px;\
+      margin: 10px 0 8px;\
+    \}\
+    .winTitle\{\
+      margin: 0;\
+      font-family: ui-serif, "Times New Roman", "Noto Serif JP", serif;\
+      font-weight: 800;\
+      letter-spacing:.10em;\
+      font-size: clamp(22px, 3.2vw, 30px);\
+    \}\
+    .winPrize\{\
+      margin: 10px 0 0;\
+      font-weight: 800;\
+      letter-spacing:.06em;\
+      font-size: 16px;\
+    \}\
+    .winSub\{\
+      margin: 8px 0 0;\
+      color: rgba(233,238,246,.82);\
+      font-size: 12px;\
+      line-height: 1.7;\
+    \}\
+    .winActions\{\
+      display:flex; justify-content:center; gap:10px; flex-wrap:wrap;\
+      padding: 0 18px 18px;\
+    \}\
+    .sparkle\{\
+      position:absolute; inset:0;\
+      background-image:\
+        radial-gradient(circle at 10% 20%, rgba(240,210,138,.95) 0 2px, transparent 3px),\
+        radial-gradient(circle at 30% 70%, rgba(240,210,138,.75) 0 1.6px, transparent 2.6px),\
+        radial-gradient(circle at 70% 30%, rgba(215,180,106,.85) 0 2px, transparent 3px),\
+        radial-gradient(circle at 90% 80%, rgba(240,210,138,.70) 0 1.8px, transparent 2.8px);\
+      opacity: .18;\
+      animation: sparkleMove 1.6s ease-in-out infinite alternate;\
+      pointer-events:none;\
+    \}\
+    @keyframes sparkleMove\{\
+      from\{ transform: translateY(-6px); opacity:.14; \}\
+      to\{ transform: translateY(6px); opacity:.22; \}\
+    \}\
+\
+    /* print friendly */\
+    @media print\{\
+      .topbar\{ position:relative; \}\
+      .btn\{ display:none; \}\
+      body\{ background:#fff; color:#111; \}\
+      .card,.heroCard,.prizeWrap\{ box-shadow:none; \}\
+    \}\
+  </style>\
+</head>\
+\
+<body>\
+  <div class="topbar">\
+    <div class="wrap inner">\
+      <div class="brand" aria-label="Brand">\
+        <div class="mark" aria-hidden="true"></div>\
+        <div>\
+          <div class="name">ReMiliss</div>\
+          <small class="sub">OMOTESANDO EYEBROW & LASH</small>\
+        </div>\
+      </div>\
+\
+      <div class="pill" role="note">\
+        <span class="dot" aria-hidden="true"></span>\
+        2026 NEW YEAR LOTTERY\
+      </div>\
+    </div>\
+  </div>\
+\
+  <header class="hero">\
+    <div class="wrap">\
+      <div class="heroCard">\
+        <div class="heroInner">\
+          <div>\
+            <div class="kicker"><span></span> LIMITED CAMPAIGN</div>\
+            <h1>2026\uc0\u24180 \u12398 \u22987 \u12414 \u12426 \u12398 <br>\u36939 \u35430 \u12375 \u65281 </h1>\
+            <p class="lead">\
+              \uc0\u12356 \u12388 \u12418 \u12372 \u26469 \u24215 \u12356 \u12383 \u12384 \u12367 \u12362 \u23458 \u27096 \u12408 \u12290 \u26032 \u24180 \u12398 \u29305 \u21029 \u25277 \u36984 \u12434 \u12372 \u29992 \u24847 \u12375 \u12414 \u12375 \u12383 \u12290 <br>\
+              <b>\uc0\u12362 \u19968 \u20154 \u27096 1\u22238 \u38480 \u12426 </b>\u65295 \u25277 \u36984 \u12467 \u12540 \u12489 \u12399 <b>\u26410 \u20351 \u29992 \u12398 \u12415 \u26377 \u21177 </b>\u12391 \u12377 \u12290 \
+            </p>\
+\
+            <div class="metaRow">\
+              <div class="chip"><b>\uc0\u21442 \u21152 \u26465 \u20214 </b>\u65306 \u23550 \u35937 \u32773 \u12408 \u25277 \u36984 \u12467 \u12540 \u12489 \u37197 \u24067 </div>\
+              <div class="chip"><b>\uc0\u22238 \u25968 \u21046 \u38480 </b>\u65306 1\u20154 1\u22238 </div>\
+              <div class="chip"><b>\uc0\u26041 \u24335 </b>\u65306 \u12467 \u12540 \u12489 \u29031 \u21512 \u65288 \u37325 \u35079 \u19981 \u21487 \u65289 </div>\
+            </div>\
+          </div>\
+\
+          <aside class="ctaBox" aria-label="Entry">\
+            <h2>\uc0\u12456 \u12531 \u12488 \u12522 \u12540 \u26041 \u27861 </h2>\
+            <p>LINE\uc0\u37197 \u24067 \u12398 \u12300 \u25277 \u36984 \u12467 \u12540 \u12489 \u12301 \u12434 \u20837 \u21147 \u12375 \u12390 \u36865 \u20449 \u12290 \u32080 \u26524 \u12399 \u30011 \u38754 \u12395 \u34920 \u31034 \u12373 \u12428 \u12289 \u35443 \u32048 \u12399 \u20844 \u24335 LINE\u12391 \u12372 \u26696 \u20869 \u12375 \u12414 \u12377 \u12290 </p>\
+            <div class="ctaActions">\
+              <a class="btn btnPrimary" href="#entry">\uc0\u25277 \u36984 \u12467 \u12540 \u12489 \u12434 \u20837 \u21147 </a>\
+              <a class="btn btnGhost" href="#prizes">\uc0\u36062 \u21697 \u19968 \u35239 \u12434 \u35211 \u12427 </a>\
+            </div>\
+            <div class="divider"></div>\
+            <div class="fine">\
+              \uc0\u8251  SS\u36062 \u12539 S\u36062 \u12364 \u24403 \u36984 \u12375 \u12383 \u22580 \u21512 \u12398 \u12415 \u12289 \u35946 \u33775 \u28436 \u20986 \u12364 \u34920 \u31034 \u12373 \u12428 \u12414 \u12377 \u12290 \
+            </div>\
+          </aside>\
+        </div>\
+      </div>\
+    </div>\
+  </header>\
+\
+  <main>\
+    <section id="prizes">\
+      <div class="wrap">\
+        <div class="prizeWrap">\
+          <div class="prizeHead">\
+            <div>\
+              <h2>PRIZE LINEUP</h2>\
+              <div class="note">SS\uc0\u36062  / S\u36062  / A\u36062  / B\u36062  / C\u36062  / D\u36062  / E\u36062  / F\u36062  / G\u36062  / H\u36062  / I\u36062 </div>\
+            </div>\
+            <div class="note">\uc0\u8251 \u24403 \u36984 \u20154 \u25968 \u12399 \u21512 \u35336 50\u21517 </div>\
+          </div>\
+\
+          <div class="prizeGrid" role="list">\
+            <!-- SS -->\
+            <div class="prize prize--top prize--ss" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge rankBadge--top">SS</span> SS\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 1\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">ReFa \uc0\u12450 \u12452 \u12525 \u12531 </p>\
+                <p class="prizeDesc">\uc0\u26368 \u19978 \u20301 \u12398 \u36939 \u35430 \u12375 \u12290 \u19978 \u36074 \u12434 \u24341 \u12365 \u23492 \u12379 \u12427 \u19968 \u26412 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- S -->\
+            <div class="prize prize--top prize--s" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge rankBadge--top">S</span> S\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 1\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">ReFa \uc0\u32654 \u38996 \u22120 </p>\
+                <p class="prizeDesc">\uc0\u32908 \u21360 \u35937 \u12434 \u24213 \u19978 \u12370 \u12290 \u20154 \u27671 \u32654 \u23481 \u12462 \u12450 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- A -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">A</span> A\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 2\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u12521 \u12483 \u12471 \u12517 \u12450 \u12487 \u12451 \u12463 \u12488 </p>\
+                <p class="prizeDesc">\uc0\u32080 \u26524 \u37325 \u35222 \u12398 \u26041 \u12408 \u12290 \u23384 \u22312 \u24863 \u12434 \u24213 \u19978 \u12370 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- B -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">B</span> B\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 3\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u32654 \u23481 \u37756 \u20837 \u12426 \u12501 \u12449 \u12531 \u12487 \u12540 \u12471 \u12519 \u12531 </p>\
+                <p class="prizeDesc">\uc0\u12513 \u12452 \u12463 \u12375 \u12394 \u12364 \u12425 \u19978 \u36074 \u12465 \u12450 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- C -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">C</span> C\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 3\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u12456 \u12464 \u12540 \u12479 \u12512 </p>\
+                <p class="prizeDesc">\uc0\u26681 \u20803 \u12363 \u12425 \u12465 \u12450 \u12375 \u12390 \u22303 \u21488 \u12434 \u25972 \u12360 \u12427 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- D -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">D</span> D\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 3\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">My lamination \uc0\u12522 \u12501 \u12488 \u12510 \u12473 \u12459 \u12521 </p>\
+                <p class="prizeDesc">\uc0\u12459 \u12540 \u12523 \u65286 \u26463 \u24863 \u12434 \u32654 \u12375 \u12367 \u12461 \u12540 \u12503 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- E -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">E</span> E\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 3\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">My lamination \uc0\u32654 \u23481 \u28082 </p>\
+                <p class="prizeDesc">\uc0\u27598 \u26085 \u12398 \u12507 \u12540 \u12512 \u12465 \u12450 \u12434 \u26684 \u19978 \u12370 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- F -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">F</span> F\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 5\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u32654 \u23481 \u37756 \u20837 \u12426 \u12495 \u12531 \u12489 \u12463 \u12522 \u12540 \u12512 </p>\
+                <p class="prizeDesc">\uc0\u25163 \u20803 \u12398 \u12358 \u12427 \u12362 \u12356 \u12392 \u19978 \u36074 \u24863 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- G -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">G</span> G\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 5\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u12506 \u12531 \u12471 \u12523 </p>\
+                <p class="prizeDesc">\uc0\u27598 \u26085 \u12398 \u30473 \u12513 \u12452 \u12463 \u12395 \u20351 \u12360 \u12427 \u19968 \u26412 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- H -->\
+            <div class="prize" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge">H</span> H\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 5\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u12414 \u12388 \u27611 \u12467 \u12540 \u12486 \u12451 \u12531 \u12464 \u21092 </p>\
+                <p class="prizeDesc">\uc0\u12459 \u12540 \u12523 \u12434 \u23432 \u12426 \u12289 \u26463 \u24863 \u12434 \u12461 \u12540 \u12503 \u12290 </p>\
+              </div>\
+            </div>\
+\
+            <!-- I (subtle) -->\
+            <div class="prize prize--subtle prize--i" role="listitem">\
+              <div class="prizeTop">\
+                <div class="rank"><span class="rankBadge rankBadge--subtle">I</span> I\uc0\u36062 </div>\
+                <div class="qty">\uc0\u24403 \u36984 \u65306 14\u21517 </div>\
+              </div>\
+              <div class="prizeBody">\
+                <p class="prizeTitle">\uc0\u27425 \u22238  \'a5500 OFF</p>\
+                <p class="prizeDesc">\uc0\u27425 \u22238 \u12372 \u26469 \u24215 \u26178 \u12395 \u12372 \u21033 \u29992 \u12356 \u12383 \u12384 \u12369 \u12414 \u12377 \u65288 \u26399 \u38480 \u12354 \u12426 \u65289 \u12290 </p>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+    </section>\
+\
+    <section>\
+      <div class="wrap grid2">\
+        <div class="card">\
+          <h3>HOW IT WORKS\uc0\u65288 \u19981 \u27491 \u38450 \u27490 \u12398 \u32771 \u12360 \u26041 \u65289 </h3>\
+          <ul>\
+            <li><b>\uc0\u25277 \u36984 \u12467 \u12540 \u12489 \u12399 \u20491 \u21029 \u30330 \u34892 </b>\u65288 \u20363 \u65306 RM26-AB12-CD34\u65289 </li>\
+            <li><b>\uc0\u20351 \u29992 \u28168 \u12415 \u12501 \u12521 \u12464 </b>\u12391 \u37325 \u35079 \u24540 \u21215 \u12434 \u12502 \u12525 \u12483 \u12463 \u65288 GAS\u65291 \u12473 \u12503 \u12524 \u12483 \u12489 \u12471 \u12540 \u12488 \u12391 \u31649 \u29702 \u65289 </li>\
+            <li>\uc0\u24540 \u21215 \u26178 \u12395 <b>\u12372 \u20104 \u32004 \u21517  / LINE\u34920 \u31034 \u21517 </b>\u12434 \u35352 \u37682 \u65288 \u24517 \u35201 \u12394 \u12425 \u38651 \u35441 \u26411 \u23614 \u12391 \u29031 \u21512 \u12418 \u21487 \u33021 \u65289 </li>\
+            <li>SS\uc0\u36062 \u12539 S\u36062 \u12398 \u12415 \u12289 \u32080 \u26524 \u34920 \u31034 \u12364 <b>\u35946 \u33775 \u28436 \u20986 </b>\u12395 \u12394 \u12426 \u12414 \u12377 </li>\
+          </ul>\
+          <p class="fine">\
+            \uc0\u8251  \u12371 \u12398 \u12506 \u12540 \u12472 \u12399 GAS\u25509 \u32154 \u12391 \u12300 \u12467 \u12540 \u12489 \u23384 \u22312 \u12481 \u12455 \u12483 \u12463 \u12301 \u12300 \u20351 \u29992 \u28168 \u12415 \u21028 \u23450 \u12301 \u12300 \u24403 \u36984 \u20154 \u25968 \u22266 \u23450 \u65288 \u22312 \u24235 \u26041 \u24335 \u65289 \u12301 \u12434 \u34892 \u12356 \u12414 \u12377 \u12290 \
+          </p>\
+        </div>\
+\
+        <div class="card">\
+          <h3>RECOMMENDED\uc0\u65288 \u36939 \u29992 \u12398 \u12467 \u12484 \u65289 </h3>\
+          <ul>\
+            <li>\uc0\u12467 \u12540 \u12489 \u37197 \u24067 \u12399 \u12300 \u26469 \u24215 \u26178 \u12301 \u12300 LINE\u38480 \u23450 \u12301 \u12394 \u12393 <b>\u37197 \u24067 \u32076 \u36335 \u12434 \u22266 \u23450 </b></li>\
+            <li>\uc0\u24403 \u36984 \u29305 \u20856 \u12399 <b>\u26399 \u38480 </b>\u12434 \u35373 \u23450 \u65288 \u20363 \u65306 \u24403 \u36984 \u36890 \u30693 \u12363 \u12425 30\u26085 \u65289 </li>\
+            <li>I\uc0\u36062 \u65288 \'a5500 OFF\u65289 \u12399 <b>\u27425 \u22238 \u26469 \u24215 \u12513 \u12522 \u12483 \u12488 </b>\u12392 \u12375 \u12390 \u33258 \u28982 \u12395 \u26696 \u20869 </li>\
+            <li>\uc0\u65288 \u20219 \u24847 \u65289 \u29031 \u21512 \u12434 \u24375 \u12417 \u12383 \u12356 \u22580 \u21512 \u12399 \u12289 \u12471 \u12540 \u12488 E\u21015 \u12395 <b>\u38651 \u35441 \u26411 \u23614 4\u26689 </b>\u12434 \u20837 \u12428 \u12390 \u36939 \u29992 </li>\
+          </ul>\
+        </div>\
+      </div>\
+    </section>\
+\
+    <section id="entry">\
+      <div class="wrap grid2">\
+        <div class="card">\
+          <h3>ENTRY\uc0\u65288 \u25277 \u36984 \u12456 \u12531 \u12488 \u12522 \u12540 \u65289 </h3>\
+\
+          <form class="form" id="lotteryForm" action="#" method="post" novalidate>\
+            <label>\
+              \uc0\u25277 \u36984 \u12467 \u12540 \u12489 \u65288 \u24517 \u38920 \u65289 \
+              <input id="ticketCode" name="ticket_code" inputmode="latin" autocomplete="off"\
+                     placeholder="\uc0\u20363 \u65306 RM26-AB12-CD34" required />\
+            </label>\
+\
+            <label>\
+              \uc0\u12372 \u20104 \u32004 \u21517  or LINE\u34920 \u31034 \u21517 \u65288 \u24517 \u38920 \u65289 \
+              <input id="customerName" name="customer_name" autocomplete="name"\
+                     placeholder="\uc0\u20363 \u65306 \u30000 \u20195  \u22826 \u37070  / LINE\u65306 TARO" required />\
+            </label>\
+\
+            <label>\
+              \uc0\u29031 \u21512 \u29992 \u65288 \u38651 \u35441 \u30058 \u21495 \u19979 4\u26689 \u12394 \u12393 \u65289 \u65288 \u20219 \u24847 \u65289 \
+              <input id="verifyHint" name="verify_hint" inputmode="numeric" autocomplete="off"\
+                     placeholder="\uc0\u20363 \u65306 1234" />\
+            </label>\
+\
+            <label>\
+              \uc0\u12513 \u12514 \u65288 \u20219 \u24847 \u65289 \
+              <textarea name="note" placeholder="\uc0\u20363 \u65306 \u24403 \u36984 \u36899 \u32097 \u12399 LINE\u24076 \u26395 \u12289 \u12394 \u12393 "></textarea>\
+            </label>\
+\
+            <button class="btn btnPrimary" type="submit">\uc0\u12456 \u12531 \u12488 \u12522 \u12540 \u36865 \u20449 </button>\
+\
+            <div class="fine" id="formNote">\
+              \uc0\u12539 \u12456 \u12531 \u12488 \u12522 \u12540 \u12399 <b>\u12362 \u19968 \u20154 \u27096 1\u22238 \u38480 \u12426 </b>\u12391 \u12377 \u12290 <br>\
+              \uc0\u12539 \u21516 \u19968 \u12467 \u12540 \u12489 \u12398 \u37325 \u35079 \u24540 \u21215 \u12399 \u28961 \u21177 \u12392 \u12394 \u12426 \u12414 \u12377 \u12290 <br>\
+              \uc0\u12539 \u24403 \u36984 \u32080 \u26524 \u12399 \u30011 \u38754 \u12395 \u34920 \u31034 \u12373 \u12428 \u12289 \u35443 \u32048 \u12399 \u20844 \u24335 LINE\u12424 \u12426 \u12372 \u26696 \u20869 \u12356 \u12383 \u12375 \u12414 \u12377 \u12290 \
+            </div>\
+          </form>\
+        </div>\
+\
+        <div class="card">\
+          <h3>TERMS\uc0\u65288 \u27880 \u24847 \u20107 \u38917 \u65289 </h3>\
+          <ul>\
+            <li>\uc0\u26412 \u12461 \u12515 \u12531 \u12506 \u12540 \u12531 \u12399 \u12289 \u23550 \u35937 \u32773 \u12408 \u37197 \u24067 \u12373 \u12428 \u12383 \u25277 \u36984 \u12467 \u12540 \u12489 \u12434 \u12362 \u25345 \u12385 \u12398 \u26041 \u12364 \u21442 \u21152 \u12391 \u12365 \u12414 \u12377 \u12290 </li>\
+            <li>\uc0\u24540 \u21215 \u12399 \u12362 \u19968 \u20154 \u27096 1\u22238 \u12414 \u12391 \u12290 \u35079 \u25968 \u12450 \u12459 \u12454 \u12531 \u12488 \u12539 \u35079 \u25968 \u21517 \u32681 \u12391 \u12398 \u24540 \u21215 \u12364 \u21028 \u26126 \u12375 \u12383 \u22580 \u21512 \u12399 \u28961 \u21177 \u12392 \u12394 \u12426 \u12414 \u12377 \u12290 </li>\
+            <li>\uc0\u24403 \u36984 \u27177 \u21033 \u12398 \u35698 \u28193 \u12539 \u25563 \u37329 \u12399 \u12391 \u12365 \u12414 \u12379 \u12435 \u12290 </li>\
+            <li>\uc0\u24403 \u36984 \u29305 \u20856 \u12395 \u12399 \u21033 \u29992 \u26399 \u38480 \u12364 \u12354 \u12426 \u12414 \u12377 \u65288 \u26399 \u38480 \u12399 \u24215 \u33303 \u12424 \u12426 \u12372 \u26696 \u20869 \u65289 \u12290 </li>\
+            <li>\uc0\u20869 \u23481 \u12399 \u20104 \u21578 \u12394 \u12367 \u22793 \u26356 \u12392 \u12394 \u12427 \u22580 \u21512 \u12364 \u12354 \u12426 \u12414 \u12377 \u12290 </li>\
+          </ul>\
+          <div class="divider"></div>\
+          <p class="fine">\
+            <b>\uc0\u12473 \u12479 \u12483 \u12501 \u21521 \u12369 \u65288 \u36939 \u29992 \u12513 \u12514 \u65289 </b><br>\
+            \uc0\u12539 \u12467 \u12540 \u12489 \u31649 \u29702 \u65306 unused / used / void \u12398 3\u29366 \u24907 \u12290 <br>\
+            \uc0\u12539 \u25277 \u36984 \u20154 \u25968 \u12399 \u22312 \u24235 \u26041 \u24335 \u12391 \u22266 \u23450 \u65288 \u21512 \u35336 50\u21517 \u65289 \u12290 <br>\
+            \uc0\u12539 \u25277 \u36984 \u12434 \u12420 \u12426 \u30452 \u12377 \u22580 \u21512 \u12399 GAS\u12398  resetInventory() \u12434 \u23455 \u34892 \u12290 \
+          </p>\
+        </div>\
+      </div>\
+    </section>\
+  </main>\
+\
+  <footer>\
+    <div class="wrap">\
+      <div class="footRow">\
+        <div>\'a9 ReMiliss / Omotesando</div>\
+        <div class="muted">Premium Lottery Page (HTML/CSS/JS + GAS)</div>\
+      </div>\
+    </div>\
+  </footer>\
+\
+  <!-- SS/S\uc0\u24403 \u36984 \u28436 \u20986 \u12514 \u12540 \u12480 \u12523  -->\
+  <div class="winModal" id="winModal" aria-hidden="true">\
+    <div class="winCard" role="dialog" aria-modal="true" aria-label="\uc0\u24403 \u36984 \u32080 \u26524 ">\
+      <div class="sparkle" aria-hidden="true"></div>\
+      <div class="winInner">\
+        <div class="winKicker">SPECIAL WINNER</div>\
+        <h2 class="winTitle" id="winTitle">\uc0\u12362 \u12417 \u12391 \u12392 \u12358 \u12372 \u12374 \u12356 \u12414 \u12377 </h2>\
+        <div class="winPrize" id="winPrize">SS\uc0\u36062 </div>\
+        <p class="winSub" id="winSub">\uc0\u35443 \u32048 \u12399 \u20844 \u24335 LINE\u12424 \u12426 \u12372 \u26696 \u20869 \u12356 \u12383 \u12375 \u12414 \u12377 \u12290 </p>\
+      </div>\
+      <div class="winActions">\
+        <button class="btn btnPrimary" id="winCloseBtn" type="button">\uc0\u38281 \u12376 \u12427 </button>\
+      </div>\
+    </div>\
+  </div>\
+\
+  <script>\
+    // =============================\
+    // 1) \uc0\u12371 \u12371 \u12395 GAS Web\u12450 \u12503 \u12522 URL\u12434 \u20837 \u12428 \u12390 \u12367 \u12384 \u12373 \u12356 \
+    // =============================\
+    const API_URL = "https://script.google.com/macros/s/AKfycbw2bTgMsKNoZ-XPBndgQ1gKIpr7cMgQrAyojctnh9uhs0soDuCk_0gmtU29skzBShZA/exec";\
+\
+    // elements\
+    const form = document.getElementById("lotteryForm");\
+    const code = document.getElementById("ticketCode");\
+    const nameEl = document.getElementById("customerName");\
+    const hintEl = document.getElementById("verifyHint");\
+    const note = document.getElementById("formNote");\
+\
+    // modal\
+    const modal = document.getElementById("winModal");\
+    const winPrize = document.getElementById("winPrize");\
+    const winCloseBtn = document.getElementById("winCloseBtn");\
+\
+    function normalizeCode(v)\{\
+      return (v || "")\
+        .trim()\
+        .replace(/\\s+/g, "")\
+        .replace(/[\uc0\u12540 \'97\'96]/g, "-")\
+        .toUpperCase();\
+    \}\
+\
+    function isTopPrize(prize)\{\
+      return prize === "SS\uc0\u36062 " || prize === "S\u36062 ";\
+    \}\
+\
+    function openWinModal(prizeText)\{\
+      winPrize.textContent = `$\{prizeText\} \uc0\u12364 \u24403 \u36984 \u12375 \u12414 \u12375 \u12383 `;\
+      modal.classList.add("is-open");\
+      modal.setAttribute("aria-hidden", "false");\
+    \}\
+    function closeWinModal()\{\
+      modal.classList.remove("is-open");\
+      modal.setAttribute("aria-hidden", "true");\
+    \}\
+    winCloseBtn.addEventListener("click", closeWinModal);\
+    modal.addEventListener("click", (e) => \{ if (e.target === modal) closeWinModal(); \});\
+\
+    function showResult(prize)\{\
+      note.innerHTML =\
+        `\uc0\u30906 \u35469 OK\u65306 <b>$\{prize\}</b> \u12364 \u24403 \u36984 \u12375 \u12414 \u12375 \u12383 \u12290 <br>\u35443 \u32048 \u12399 \u20844 \u24335 LINE\u12424 \u12426 \u12372 \u26696 \u20869 \u12375 \u12414 \u12377 \u12290 `;\
+      if (isTopPrize(prize)) openWinModal(prize);\
+    \}\
+\
+    form.addEventListener("submit", async (e) => \{\
+      e.preventDefault();\
+\
+      code.value = normalizeCode(code.value);\
+\
+      // format check\
+      const okFormat = /^RM26-[A-Z0-9]\{4\}-[A-Z0-9]\{4\}$/.test(code.value);\
+      if(!code.value || !okFormat)\{\
+        note.innerHTML =\
+          "\uc0\u12539 \u25277 \u36984 \u12467 \u12540 \u12489 \u12398 \u24418 \u24335 \u12434 \u12372 \u30906 \u35469 \u12367 \u12384 \u12373 \u12356 \u65288 \u20363 \u65306 <b>RM26-AB12-CD34</b>\u65289 \u12290 ";\
+        code.focus();\
+        return;\
+      \}\
+\
+      const btn = form.querySelector("button[type='submit']");\
+      btn.disabled = true;\
+      btn.textContent = "\uc0\u30906 \u35469 \u20013 \'85";\
+\
+      try \{\
+        const res = await fetch(API_URL, \{\
+          method: "POST",\
+          // GAS\uc0\u12399  text/plain \u12364 \u23433 \u23450 \u65288 \u12503 \u12522 \u12501 \u12521 \u12452 \u12488 \u22238 \u36991 \u12375 \u12420 \u12377 \u12356 \u65289 \
+          headers: \{ "Content-Type": "text/plain;charset=utf-8" \},\
+          body: JSON.stringify(\{\
+            ticket_code: code.value,\
+            customer_name: nameEl.value,\
+            verify_hint: hintEl.value\
+          \})\
+        \});\
+\
+        const data = await res.json();\
+\
+        if (!data.ok) \{\
+          const msgMap = \{\
+            missing_fields: "\uc0\u24517 \u38920 \u38917 \u30446 \u12364 \u26410 \u20837 \u21147 \u12391 \u12377 \u12290 ",\
+            sheet_missing: "\uc0\u35373 \u23450 \u12456 \u12521 \u12540 \u65288 \u12471 \u12540 \u12488 \u26410 \u20316 \u25104 \u65289 \u12391 \u12377 \u12290 \u24215 \u33303 \u12408 \u12372 \u36899 \u32097 \u12367 \u12384 \u12373 \u12356 \u12290 ",\
+            not_found: "\uc0\u12371 \u12398 \u12467 \u12540 \u12489 \u12399 \u23384 \u22312 \u12375 \u12414 \u12379 \u12435 \u12290 \u20837 \u21147 \u12434 \u12372 \u30906 \u35469 \u12367 \u12384 \u12373 \u12356 \u12290 ",\
+            already_used: "\uc0\u12371 \u12398 \u12467 \u12540 \u12489 \u12399 \u26082 \u12395 \u20351 \u29992 \u28168 \u12415 \u12391 \u12377 \u65288 1\u20154 1\u22238 \u38480 \u12426 \u65289 \u12290 ",\
+            void: "\uc0\u12371 \u12398 \u12467 \u12540 \u12489 \u12399 \u28961 \u21177 \u12391 \u12377 \u12290 \u24215 \u33303 \u12408 \u12372 \u36899 \u32097 \u12367 \u12384 \u12373 \u12356 \u12290 ",\
+            hint_mismatch: "\uc0\u29031 \u21512 \u24773 \u22577 \u12364 \u19968 \u33268 \u12375 \u12414 \u12379 \u12435 \u12290 \u20837 \u21147 \u12434 \u12372 \u30906 \u35469 \u12367 \u12384 \u12373 \u12356 \u12290 ",\
+            sold_out: "\uc0\u26412 \u25277 \u36984 \u12399 \u32066 \u20102 \u12375 \u12414 \u12375 \u12383 \u65288 \u19978 \u38480 \u12395 \u36948 \u12375 \u12414 \u12375 \u12383 \u65289 \u12290 ",\
+            server_error: "\uc0\u29694 \u22312 \u28151 \u12415 \u21512 \u12387 \u12390 \u12356 \u12414 \u12377 \u12290 \u26178 \u38291 \u12434 \u12362 \u12356 \u12390 \u20877 \u24230 \u12362 \u35430 \u12375 \u12367 \u12384 \u12373 \u12356 \u12290 "\
+          \};\
+          note.innerHTML = msgMap[data.reason] || "\uc0\u30906 \u35469 \u12395 \u22833 \u25943 \u12375 \u12414 \u12375 \u12383 \u12290 ";\
+          btn.disabled = false;\
+          btn.textContent = "\uc0\u12456 \u12531 \u12488 \u12522 \u12540 \u36865 \u20449 ";\
+          return;\
+        \}\
+\
+        btn.textContent = "\uc0\u36865 \u20449 \u23436 \u20102 ";\
+        showResult(data.prize);\
+\
+      \} catch (err) \{\
+        note.innerHTML =\
+          "\uc0\u36890 \u20449 \u12395 \u22833 \u25943 \u12375 \u12414 \u12375 \u12383 \u12290 \u38651 \u27874 \u29366 \u27841 \u12434 \u12372 \u30906 \u35469 \u12398 \u12358 \u12360 \u20877 \u24230 \u12362 \u35430 \u12375 \u12367 \u12384 \u12373 \u12356 \u12290 ";\
+        btn.disabled = false;\
+        btn.textContent = "\uc0\u12456 \u12531 \u12488 \u12522 \u12540 \u36865 \u20449 ";\
+      \}\
+    \});\
+  </script>\
+</body>\
+</html>\
+}
